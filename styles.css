@@ -1,0 +1,183 @@
+h1
+{
+margin-bottom:0px;
+text-align:center;
+color: Teal;
+font-family: Futura;
+font-size:275%;
+font-weight: bold;
+text-transform: uppercase;
+z-index: 1;
+}
+form
+{
+padding:25px;
+}
+legend
+{
+padding:10px;
+}
+SL
+{
+font-size:70%;
+}
+@font-face
+{
+	font-family: Futura;
+	src: url(4004.ttf);
+}
+@font-face
+{
+	font-family: Neuropolitical;
+	src: url(5001.ttf);
+}
+@font-face
+{
+	font-family: Uberlin;
+	src: url(6001.ttf);
+}
+#programming
+{
+float:left;
+height:500px;
+width:40%;
+font-family: Neuropolitical;
+text-transform: uppercase;
+font-size: 80%;
+}
+#games
+{
+float:right;
+height:500px;
+width:40%;
+text-align: right;
+font-family: Neuropolitical;
+text-transform: uppercase;
+font-size: 80%;
+}
+#java
+{
+float:left;
+height:500px;
+width:50%;
+}
+#scratch
+{
+float:left;
+height:500px;
+width:50%;
+}
+#ABoLImages
+{
+float:left;
+height:500px;
+width:20%;
+}
+#images
+{
+float:left;
+height:500px;
+width:40%;
+}
+#words
+{
+float:left;
+height:500px;
+width:60%;
+}
+#sImages
+{
+float:left;
+height:500px;
+width:40%;
+}
+#sWords
+{
+float:left;
+height:500px;
+width:60%;
+}
+#googlemaps { 
+height: 100%; 
+width: 100%; 
+position:absolute; 
+top: 0; 
+left: 0; 
+z-index: 0;
+}
+input#fName
+{
+width:300px;
+}
+input#lName
+{
+width:300px;
+}
+input#message
+{
+width:500px;
+height:300px;
+}
+input#email
+{
+width:500px;
+}
+h2#about
+{
+padding:10px;
+text-align:center;
+font-family: Futura;
+font-size: 175%;
+}
+.carousel-inner .active.left { left: -20%; }
+.carousel-inner .next        { left:  20%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.col-lg-2 {width: 20%;}
+.navbar-wrapper
+{
+margin-top: 5px;
+}
+.contain
+{
+margin-right: 5px;
+margin-left: 5px;
+}
+.popover
+{
+max-width:400px;
+}
+.about
+{
+padding:0px 20px;
+}
+.about_li
+{
+padding:5px 30px;
+background-color: transparent;
+}
+.Resume
+{
+margin-left: 30px;
+}
+.modal-dialog{
+  width:1350px;
+}
+.carousel-control.left, .carousel-control.right 
+{
+background-image: none;
+}
+.carousel:hover .carousel-control
+{
+visibility: visible;
+}
+body.main
+{
+    background-image: url("http://mighty-little-websites.com/wp-content/uploads/2011/11/light-tile.gif");
+	background-position: 0px 0px;
+	background-size: 264px 264px;
+    background-repeat: repeat;
+}
+body.noScroll
+{
+
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<title>Beck Rivera - Random Color</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script> 
+$(document).ready(function(){
+        $("body").css("background-image", "none");
+		$("body").css("background-color", "#" + ("000000" + Math.floor(Math.random() * 16777215).toString(16)).slice(-6));
+});
+</script>
+</head>
+<body class="main noScroll">
+<div class="navbar-wrapper">
+<div class="contain">
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand" style="padding:7px;text-align:left;margin-left:-20px;margin-right:7px" href="Home.html"><img style="float:left;padding-left:15px" src="Images\Logo(s)\BR.png" alt="Logo" width="44" height="35"></a>
+</div>
+<div>
+<ul class="nav navbar-nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="Resume.html">Resume</a></li>
+<li><a href="Projects.html">Projects</a></li>
+<li><a href="ABoL_Detailed.html">Last of the Species <span class="badge">New</span></li></a></li>
+<li><a href="Artwork.html">Artwork</a></li>
+<li class="active"><a href="Random.html">Random Color </a></li>
+<li><a href="WITW.html">Where in the World? </a></li>
+<li><a href="Broken.html">Broken </a></li>
+<li><a href="weebly.html">Weebly</a></li>
+<li><a href="scratch.html">Scratch Profile</a></li>
+<li><a href="steam.html">Steam Profile</a></li>
+<li><a href="Contact Me.html">Contact Me</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div style="text-align: center; margin: auto">
+<h1 style="display: inline-block; text-align: center; margin: auto; margin-left: 50px">A Solid Random Color</h1>
+<div style="text-align: right; float: right; padding: 5px; display: inline-block">
+<button type="button" class="btn btn-warning" onClick="history.go(0)" VALUE="Refresh" aria-label="Right Align">
+<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+</button>
+</div>
+</div>
+<br />
+<p style="text-align: center"><a href="Break.html" class="btn btn-warning" role="button">This is boring, please take me to a page with constantly changing random colors.</a></p>
+<div style="backgroundColor:#98bf21;height:800px;width:100%;"></div>
+</body>
