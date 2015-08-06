@@ -1,7 +1,8 @@
 # berivera1.github.io
 Thursday To Do:
 Record Boss Fight as MP4
-Edit Boss Fight
+Edit Boss Fight Video
 Re-save Boss Fight as GIF
-Upload Broken Images Online / Link Online
-Add "img-responsive" Class to Logo in All Files
+Fix Space Errors in Projects-List Page
+Add FluidUI Page
+Add Details to ABoL Page
