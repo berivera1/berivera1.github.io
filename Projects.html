@@ -14,7 +14,6 @@ display: none;
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <style>
 body
 {
@@ -53,17 +52,31 @@ $(document).ready(function(){
 <ul class="nav navbar-nav">
 <li><a href="index.html">Home</a></li>
 <li><a href="Resume.html">Resume</a></li>
-<li class="active"><a href="Projects.html">Projects</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li class="active"><a href="Projects.html">Java / Scratch</a></li>
 <li><a href="ABoL_Detailed.html">Last of the Species <span class="badge">New</span></li></a></li>
 <li><a href="Fluid.html">MED-X <span class="badge">New</span></li></a></li>
-<li><a href="Artwork.html">Artwork</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Artwork
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="Artwork.html">Art Carousel</a></li>
 <li><a href="Random.html">Random Color </a></li>
 <li><a href="WITW.html">Where in the World? </a></li>
 <li><a href="Broken.html">Broken </a></li>
-<li><a href="weebly.html">Weebly</a></li>
-<li><a href="scratch.html">Scratch Profile</a></li>
-<li><a href="steam.html">Steam Profile</a></li>
+</ul>
+</li>
 <li><a href="Contact Me.html">Contact Me</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="weebly.html"><img src="Weebly.png" alt="Weebly" width="24" height="18"></a></li>
+<li><a href="scratch.html"><img src="ScratchLogo.png" alt="Scratch" width="20" height="20"></a></li>
+<li><a href="steam.html"><img src="SteamLogo.png" alt="Steam" width="30" height="15"></a></li>
 </ul>
 </div>
 </div>
