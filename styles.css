@@ -3,7 +3,7 @@ h1
 margin-bottom:0px;
 text-align:center;
 color: Teal;
-font-family: Futura;
+font-family: Universe;
 font-size:275%;
 font-weight: bold;
 text-transform: uppercase;
@@ -35,6 +35,11 @@ font-size:70%;
 {
 	font-family: Uberlin;
 	src: url(6001.ttf);
+}
+@font-face
+{
+	font-family: Universe;
+	src: url(7001.ttf);
 }
 #programming
 {
