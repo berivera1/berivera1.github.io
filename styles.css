@@ -188,7 +188,7 @@ visibility: visible;
 body.main
 {
     /*background-image: url("http://mighty-little-websites.com/wp-content/uploads/2011/11/light-tile.gif");*/
-	background-image: url("chevron.png");
+	/*background-image: url("chevron.png");*/
 	background-position: 0px 0px;
 	background-size: 300px 260px;
     background-repeat: repeat;
